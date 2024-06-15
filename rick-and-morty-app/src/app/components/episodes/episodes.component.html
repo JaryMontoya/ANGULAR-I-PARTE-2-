@@ -1,1 +1,9 @@
-<p>episodes works!</p>
+<div>
+    <h2>Episodes</h2>
+    <ul>
+      <li *ngFor="let episode of episodes">{{ episode.name }}</li>
+    </ul>
+    <button (click)="previousPage()">Previous</button>
+    <button (click)="nextPage()">Next</button>
+  </div>
+  

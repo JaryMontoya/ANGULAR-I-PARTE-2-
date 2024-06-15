@@ -1,1 +1,9 @@
-<p>locations works!</p>
+<div>
+    <h2>Locations</h2>
+    <ul>
+      <li *ngFor="let location of locations">{{ location.name }}</li>
+    </ul>
+    <button (click)="previousPage()">Previous</button>
+    <button (click)="nextPage()">Next</button>
+  </div>
+  
